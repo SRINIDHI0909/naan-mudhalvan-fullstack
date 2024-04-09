@@ -1,0 +1,48 @@
+{% include 'navbar.html' %}
+{% load static %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="about-section">
+  <h1>About Us</h1>
+  <p>ILLUMINATE YOUR KNOWLEDGE AND BECOME A GEEK</p>
+  <p>Welcome to our note-sharing platform, where the digital meets the insightful. We're a community dedicated to the art of sharing knowledge, one note at a time. Whether you're a student, a professional, or an enthusiast, our platform is your canvas to jot down ideas, collaborate with others, and unlock the doors to collective wisdom. Join us in this journey of discovery, where every note is a step towards greater understanding and connection</p>
+</div>
+<br><br>
+<h2 style="text-align:center">Our Team</h2>
+<div class="row offset-3">
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/SRINIDHI.jpeg' %}" alt="SRINIDHI" style="border-radius: 300%;">
+      <div class="container">
+        <h2>SRINIDHI</h2>
+        <p class="title">CEO & Founder</p>
+        <p>DATA SCIENTIST</p>
+        <p>srinidhi09@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="{% static 'images/JENNIE.jpeg' %}" alt="JENNIE" style="border-radius: 50%;">
+      <div class="container">
+        <h2>JENNIE</h2>
+        <p class="title">CO FOUNDER</p>
+        <p>FULLSTACK DEVELOPER</p>
+        <p>jennie@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
